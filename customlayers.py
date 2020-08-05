@@ -40,9 +40,9 @@ from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits import mplot3d
 from matplotlib import animation
 from IPython.display import HTML, Image
-from flattenunitary import flattenunitary
-from flattenunitary import realise
-from dataprocess import dataprocess
+# from flattenunitary import flattenunitary
+# from flattenunitary import realise
+# from dataprocess import dataprocess
 from simulation import GenData
 
 '''========================CUSTOM LAYERS===================

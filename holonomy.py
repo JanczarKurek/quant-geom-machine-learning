@@ -81,7 +81,7 @@ class holonomy(object):
         self.Uj_list_hol = [( -1j*self.delta_t* (H + H.dag())/2 ).expm() for H in self.H_j]
         self.op_list = list(accumulate(self.Uj_list_hol, operator.mul) )
         self.state_list = [q * qt.basis(2,0) for q in self.op_list]
-        self.state_fidelity = self.statefidelity()
+        # self.state_fidelity = self.statefidelity()
 
         self.U0 = qt.identity(2)
 
