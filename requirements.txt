@@ -1,0 +1,8 @@
+tensorflow
+jupyter
+qutip
+matplotlib
+pandas
+scipy
+sympy
+colorama
